@@ -1,0 +1,19 @@
+{
+	"name": "LinkedService564",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1Y2EzOWRmMC1jMDRhLTRmYWUtOTc4OS1jM2U0MjM0NmZkOGIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "TestManyLS",
+			"type": "IntegrationRuntimeReference"
+		},
+		"annotations": []
+	}
+}

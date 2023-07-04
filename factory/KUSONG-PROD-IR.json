@@ -1,0 +1,9 @@
+{
+	"name": "KUSONG-PROD-IR",
+	"location": "EastUS",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "08c0deb2-d2d4-479c-becd-2c19df9dffe3",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
